@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Hello_World</name>
-	<comment>Created by SDK v2019.1. Hello_World_bsp - ps7_cortexa9_0</comment>
+	<name>ZmodDAC1411_Demo_Baremetal</name>
+	<comment>Created by SDK v2019.1. ZmodDAC1411_Demo_Baremetal_bsp - ps7_cortexa9_0</comment>
 	<projects>
-		<project>Hello_World_bsp</project>
+		<project>ZmodDAC1411_Demo_Baremetal_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -22,5 +22,13 @@
 		<nature>org.eclipse.cdt.core.cnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/zmodlib</name>
+			<type>2</type>
+			<locationURI>WORKSPACE_LOC/zmodlib</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

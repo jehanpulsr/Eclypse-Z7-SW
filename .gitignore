@@ -67,4 +67,3 @@ proj/*
 !proj/create_project.tcl
 !proj/cleanup.cmd
 !proj/cleanup.sh
-
